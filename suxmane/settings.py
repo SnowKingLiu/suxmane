@@ -25,7 +25,7 @@ SECRET_KEY = '_t#n^877#ybx#s(_rq7)@5$5(o!bazmc6nirzc8!=v482=wayx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.suxmane.com']
+ALLOWED_HOSTS = ['www.suxmane.com', 'suxmane.com']
 
 
 # Application definition
