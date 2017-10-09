@@ -201,6 +201,7 @@ body{
 	position: relative;
 	padding: 4em 0;
 	background: #F6F1ED;
+    text-align: center;
 }
 .works h3{
 	display: inline;
