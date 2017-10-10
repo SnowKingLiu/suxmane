@@ -20,4 +20,5 @@ from oct.views import *
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', index, name='index'),
+    url(r'^v1$', index_v1, name='index_v1'),
 ]
