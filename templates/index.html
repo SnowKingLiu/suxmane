@@ -33,21 +33,21 @@
 		</script>
 		<!---scrooling-script--->
 		<!---smoth-scrlling---->
-							<script type="text/javascript">
-									$(document).ready(function(){
-									$('a[href^="#"]').on('click',function (e) {
-									    e.preventDefault();
-									    var target = this.hash,
-									    $target = $(target);
-									    $('html, body').stop().animate({
-									        'scrollTop': $target.offset().top
-									    }, 1000, 'swing', function () {
-									        window.location.hash = target;
-									    });
-									});
-								});
-							</script>
-					<!---//smoth-scrlling---->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('a[href^="#"]').on('click',function (e) {
+                    e.preventDefault();
+                    var target = this.hash,
+                    $target = $(target);
+                    $('html, body').stop().animate({
+                        'scrollTop': $target.offset().top
+                    }, 1000, 'swing', function () {
+                        window.location.hash = target;
+                    });
+                });
+            });
+        </script>
+        <!---//smoth-scrlling---->
 		<!---//scrooling-script--->
 		<!-----768px-menu----->
 		<link type="text/css" rel="stylesheet" href="{% static 'css/jquery.mmenu.all.css' %}" />
@@ -440,12 +440,12 @@
 								</div>
 								<div data-scroll-reveal="enter bottom but wait 0.7s" class="artical-grid">
 									<div class="artical-grid-head">
-										<img class="post-pic" src="{% static 'images/artical-pic0.jpg' %}">
-										<span class="admin1"><img src="{% static 'images/admin0.jpg' %}" title="admin-name" /></span>
+										<img class="post-pic" src="{% static 'images/artical-pic5.jpg' %}">
+										<span class="admin1"><img src="{% static 'images/admin5.jpg' %}" title="admin-name" /></span>
 									</div>
 									<div class="artical-info">
-										<label class="poston"></label>
-										<p></p>
+										<label class="poston">November 11, 2017</label>
+										<p>Our First Date!</p>
 									</div>
 								</div>
 								<div data-scroll-reveal="enter bottom but wait 0.7s" class="artical-grid">
